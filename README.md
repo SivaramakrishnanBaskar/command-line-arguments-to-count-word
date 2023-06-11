@@ -10,22 +10,23 @@ Anaconda - Python 3.7
 ## ALGORITHM: 
 
 ### Step 1:
-Get the file name using command arguments
+Import sys module to use command line arguments.
 
 ### Step 2: 
-Now read the content in the file
+Use the open() by getting the file name with "sys.argv[1]" which means the first index of given argument.
  
 ### Step 3: 
-use split()
+Use the open() by getting the file name with "sys.argv[1]" which means the first index of given argument.
 
 ### Step 4:  
-Now read the no.of words in file
+Split the contents into each line using .split() function.
 
 ### Step 5: 
-Print number of words present in given file
+Iterate the list of lines and increment the value of variable (word) each time.
 
 ### Step 6: 
-End of the program
+Run the program by giving "python prgm.py EX12.txt" on the terminal.
+
 
 ## PROGRAM:
 ```
