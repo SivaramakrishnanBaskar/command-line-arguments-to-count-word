@@ -33,6 +33,10 @@ Run the program by giving "python prgm.py EX12.txt" on the terminal.
 Developed By: Sivaramakrishnan B
 Register Number: 212222110044
 
+#Program for getting word count from the contents of a file using command line arguments.
+#Developed by: S Afsar jumail
+#RegisterNumber: 212222240004
+
 import sys
 count = {}
 with open(sys.argv[1], 'r') as f:
@@ -44,7 +48,6 @@ with open(sys.argv[1], 'r') as f:
                 count[word] += 1
 print(count)
 f.close()
-
 ```
 
 ### FILE CONTENT:
